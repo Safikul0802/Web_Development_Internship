@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+#display {
+    font-size: 3rem;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 5px;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #ddd;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    background: rgba(0, 0, 0, 0.3);
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
